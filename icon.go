@@ -20,9 +20,6 @@ func main() {
 		fmt.Printf("err %v", err)
 		os.Exit(0)
 	}
-	// for _, file := range files {
-	// 	fmt.Println(file)
-	// }
 	if _, err := addIconTable(writeFile, files); err != nil {
 		fmt.Printf("err %v", err)
 	}
@@ -82,11 +79,13 @@ func addIconTable(writeFile string, files []string) (bool, error) {
 		return false, err
 	}
 	for i := 0 ; i < len(files) - 1; {
-		length, err = writeAt(f, "| "+files[i]+" | <img src=\""+files[i]+"\" style=\"height:30px\" />", length)
+		length, err = writeAt(f, "| "+files[i]+" | ![]("+files[i]+" =20x20) ", length)
+		// length, err = writeAt(f, "| "+files[i]+" | <img src=\""+files[i]+"\" style=\"height:30px\" />", length)
 		if err != nil {
 			return false, err
 		}
-		length, err = writeAt(f, " | "+files[i+1]+" | <img src=\""+files[i+1]+"\" style=\"height:30px\" /> |\r\n", length)
+		length, err = writeAt(f, "| "+files[i+1]+" | ![]("+files[i+1]+" =20x20)\r\n", length)
+		// length, err = writeAt(f, " | "+files[i+1]+" | <img src=\""+files[i+1]+"\" style=\"height:30px\" /> |\r\n", length)
 		if err != nil {
 			return false, err
 		}
