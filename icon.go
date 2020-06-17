@@ -9,8 +9,9 @@ import (
 )
 
 var (
-	iconPath  = "./icon"
-	writeFile = "./README.md"
+	path      = "./"
+	iconPath  = "icon"
+	writeFile = "README.md"
 	beginFlag = "### Icons Table"
 )
 
@@ -20,7 +21,7 @@ func main() {
 		fmt.Printf("err %v", err)
 		os.Exit(0)
 	}
-	if _, err := addIconTable(writeFile, files); err != nil {
+	if _, err := addIconTable(path+writeFile, files); err != nil {
 		fmt.Printf("err %v", err)
 	}
 }
@@ -32,7 +33,7 @@ func getIcons(iconPath string) ([]string, error) {
 		dir     []os.FileInfo
 		err     error
 	)
-	if dir, err = ioutil.ReadDir(iconPath); err != nil {
+	if dir, err = ioutil.ReadDir(path+iconPath); err != nil {
 		return nil, err
 	}
 	PthSep := string(os.PathSeparator)
@@ -74,17 +75,17 @@ func addIconTable(writeFile string, files []string) (bool, error) {
 	if err != nil {
 		return false, err
 	}
-	length, err = writeAt(f, "| url | picture | url | picture | \r\n| - | - | - | - |\r\n", length)
+	length, err = writeAt(f, "| uri | picture | uri | picture | \r\n| - | - | - | - |\r\n", length)
 	if err != nil {
 		return false, err
 	}
 	for i := 0 ; i < len(files) - 1; {
-		length, err = writeAt(f, "| "+files[i]+" | <img width=\"30\" height=\"30\" src=\""+files[i]+"\" />", length)
+		length, err = writeAt(f, "| "+files[i]+" | <img width=\"30\" height=\"30\" src=\""+path+files[i]+"\" />", length)
 		// length, err = writeAt(f, "| "+files[i]+" | <img src=\""+files[i]+"\" style=\"height:30px\" />", length)
 		if err != nil {
 			return false, err
 		}
-		length, err = writeAt(f, " | "+files[i+1]+" | <img width=\"30\" height=\"30\" src=\""+files[i+1]+"\" /> |\r\n", length)
+		length, err = writeAt(f, " | "+files[i+1]+" | <img width=\"30\" height=\"30\" src=\""+path+files[i+1]+"\" /> |\r\n", length)
 		// length, err = writeAt(f, " | "+files[i+1]+" | <img src=\""+files[i+1]+"\" style=\"height:30px\" /> |\r\n", length)
 		if err != nil {
 			return false, err
