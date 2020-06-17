@@ -79,12 +79,12 @@ func addIconTable(writeFile string, files []string) (bool, error) {
 		return false, err
 	}
 	for i := 0 ; i < len(files) - 1; {
-		length, err = writeAt(f, "| "+files[i]+" | ![]("+files[i]+" =20x20) ", length)
+		length, err = writeAt(f, "| "+files[i]+" | <img width=\"30\" height=\"30\" src=\""+files[i]+"\" />", length)
 		// length, err = writeAt(f, "| "+files[i]+" | <img src=\""+files[i]+"\" style=\"height:30px\" />", length)
 		if err != nil {
 			return false, err
 		}
-		length, err = writeAt(f, "| "+files[i+1]+" | ![]("+files[i+1]+" =20x20)\r\n", length)
+		length, err = writeAt(f, " | "+files[i+1]+" | <img width=\"30\" height=\"30\" src=\""+files[i+1]+"\" /> |\r\n", length)
 		// length, err = writeAt(f, " | "+files[i+1]+" | <img src=\""+files[i+1]+"\" style=\"height:30px\" /> |\r\n", length)
 		if err != nil {
 			return false, err
