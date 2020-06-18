@@ -33,7 +33,7 @@ func getIcons(iconPath string) ([]string, error) {
 		dir     []os.FileInfo
 		err     error
 	)
-	if dir, err = ioutil.ReadDir(path+iconPath); err != nil {
+	if dir, err = ioutil.ReadDir(path + iconPath); err != nil {
 		return nil, err
 	}
 	PthSep := string(os.PathSeparator)
@@ -62,16 +62,16 @@ func addIconTable(writeFile string, files []string) (bool, error) {
 	var size int64 = 0
 	for {
 		content, _, err := reader.ReadLine()
-		if err == io.EOF {
-			break
-		}
 		size += int64(len(content)) + 2
 		if string(content) == beginFlag {
 			break
 		}
+		if err == io.EOF {
+			break
+		}
 	}
 	length := size
-	length, err = writeAt(f,"\r\n", length)
+	length, err = writeAt(f, "\r\n", length)
 	if err != nil {
 		return false, err
 	}
@@ -79,7 +79,7 @@ func addIconTable(writeFile string, files []string) (bool, error) {
 	if err != nil {
 		return false, err
 	}
-	for i := 0 ; i < len(files) - 1; {
+	for i := 0; i < len(files)-1; {
 		length, err = writeAt(f, "| "+files[i]+" | <img width=\"30\" height=\"30\" src=\""+path+files[i]+"\" />", length)
 		// length, err = writeAt(f, "| "+files[i]+" | <img src=\""+files[i]+"\" style=\"height:30px\" />", length)
 		if err != nil {
@@ -95,7 +95,7 @@ func addIconTable(writeFile string, files []string) (bool, error) {
 	return true, nil
 }
 
-func writeAt(f *os.File, content string, length int64) (len int64, err error){
+func writeAt(f *os.File, content string, length int64) (len int64, err error) {
 	l, err := f.WriteAt([]byte(content), length)
 	if err != nil {
 		return 0, err
