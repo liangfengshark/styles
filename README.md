@@ -111,3 +111,68 @@ https://cdn.jsdelivr.net/gh/tunasx/jdn/{uri}
 | icon/4/045-dolphin.png | <img width="30" height="30" src="./icon/4/045-dolphin.png" /> | icon/4/046-pig.png | <img width="30" height="30" src="./icon/4/046-pig.png" /> |
 | icon/4/047-hippopotamus.png | <img width="30" height="30" src="./icon/4/047-hippopotamus.png" /> | icon/4/048-parrot.png | <img width="30" height="30" src="./icon/4/048-parrot.png" /> |
 | icon/4/049-clownfish.png | <img width="30" height="30" src="./icon/4/049-clownfish.png" /> | icon/4/050-horse.png | <img width="30" height="30" src="./icon/4/050-horse.png" /> |
+| icon/5/001-united states of america.png | <img width="30" height="30" src="./icon/5/001-united states of america.png" /> | icon/5/002-united states of america.png | <img width="30" height="30" src="./icon/5/002-united states of america.png" /> |
+| icon/5/003-badge.png | <img width="30" height="30" src="./icon/5/003-badge.png" /> | icon/5/004-star.png | <img width="30" height="30" src="./icon/5/004-star.png" /> |
+| icon/5/005-medal.png | <img width="30" height="30" src="./icon/5/005-medal.png" /> | icon/5/006-balloons.png | <img width="30" height="30" src="./icon/5/006-balloons.png" /> |
+| icon/5/007-streamers.png | <img width="30" height="30" src="./icon/5/007-streamers.png" /> | icon/5/008-garlands.png | <img width="30" height="30" src="./icon/5/008-garlands.png" /> |
+| icon/5/009-sparkler.png | <img width="30" height="30" src="./icon/5/009-sparkler.png" /> | icon/5/010-firecracker.png | <img width="30" height="30" src="./icon/5/010-firecracker.png" /> |
+| icon/5/011-firework.png | <img width="30" height="30" src="./icon/5/011-firework.png" /> | icon/5/012-fireworks.png | <img width="30" height="30" src="./icon/5/012-fireworks.png" /> |
+| icon/5/013-bonfire.png | <img width="30" height="30" src="./icon/5/013-bonfire.png" /> | icon/5/014-pinwheel.png | <img width="30" height="30" src="./icon/5/014-pinwheel.png" /> |
+| icon/5/015-usa.png | <img width="30" height="30" src="./icon/5/015-usa.png" /> | icon/5/016-glasses.png | <img width="30" height="30" src="./icon/5/016-glasses.png" /> |
+| icon/5/017-hat.png | <img width="30" height="30" src="./icon/5/017-hat.png" /> | icon/5/018-helmet.png | <img width="30" height="30" src="./icon/5/018-helmet.png" /> |
+| icon/5/019-cowboy hat.png | <img width="30" height="30" src="./icon/5/019-cowboy hat.png" /> | icon/5/020-picnic basket.png | <img width="30" height="30" src="./icon/5/020-picnic basket.png" /> |
+| icon/5/021-barbeque.png | <img width="30" height="30" src="./icon/5/021-barbeque.png" /> | icon/5/022-fork.png | <img width="30" height="30" src="./icon/5/022-fork.png" /> |
+| icon/5/023-mustard.png | <img width="30" height="30" src="./icon/5/023-mustard.png" /> | icon/5/024-hot dog.png | <img width="30" height="30" src="./icon/5/024-hot dog.png" /> |
+| icon/5/025-burger.png | <img width="30" height="30" src="./icon/5/025-burger.png" /> | icon/5/026-chicken leg.png | <img width="30" height="30" src="./icon/5/026-chicken leg.png" /> |
+| icon/5/027-salmon.png | <img width="30" height="30" src="./icon/5/027-salmon.png" /> | icon/5/028-brochette.png | <img width="30" height="30" src="./icon/5/028-brochette.png" /> |
+| icon/5/029-doughnut.png | <img width="30" height="30" src="./icon/5/029-doughnut.png" /> | icon/5/030-cupcake.png | <img width="30" height="30" src="./icon/5/030-cupcake.png" /> |
+| icon/5/031-ice cream.png | <img width="30" height="30" src="./icon/5/031-ice cream.png" /> | icon/5/032-popsicle.png | <img width="30" height="30" src="./icon/5/032-popsicle.png" /> |
+| icon/5/033-pie.png | <img width="30" height="30" src="./icon/5/033-pie.png" /> | icon/5/034-Paper cup.png | <img width="30" height="30" src="./icon/5/034-Paper cup.png" /> |
+| icon/5/035-beer pong.png | <img width="30" height="30" src="./icon/5/035-beer pong.png" /> | icon/5/036-soda.png | <img width="30" height="30" src="./icon/5/036-soda.png" /> |
+| icon/5/037-beer bottle.png | <img width="30" height="30" src="./icon/5/037-beer bottle.png" /> | icon/5/038-pop corn.png | <img width="30" height="30" src="./icon/5/038-pop corn.png" /> |
+| icon/5/039-baseball.png | <img width="30" height="30" src="./icon/5/039-baseball.png" /> | icon/5/040-trumpet.png | <img width="30" height="30" src="./icon/5/040-trumpet.png" /> |
+| icon/5/041-drum.png | <img width="30" height="30" src="./icon/5/041-drum.png" /> | icon/5/042-ferris wheel.png | <img width="30" height="30" src="./icon/5/042-ferris wheel.png" /> |
+| icon/5/043-quill pen.png | <img width="30" height="30" src="./icon/5/043-quill pen.png" /> | icon/5/044-declaration of independence.png | <img width="30" height="30" src="./icon/5/044-declaration of independence.png" /> |
+| icon/5/045-syng inkstand.png | <img width="30" height="30" src="./icon/5/045-syng inkstand.png" /> | icon/5/046-4th of july.png | <img width="30" height="30" src="./icon/5/046-4th of july.png" /> |
+| icon/5/047-tribune.png | <img width="30" height="30" src="./icon/5/047-tribune.png" /> | icon/5/048-uncle sam.png | <img width="30" height="30" src="./icon/5/048-uncle sam.png" /> |
+| icon/5/049-washington monument.png | <img width="30" height="30" src="./icon/5/049-washington monument.png" /> | icon/5/050-capitol.png | <img width="30" height="30" src="./icon/5/050-capitol.png" /> |
+| icon/6/001-police officer.png | <img width="30" height="30" src="./icon/6/001-police officer.png" /> | icon/6/002-woman.png | <img width="30" height="30" src="./icon/6/002-woman.png" /> |
+| icon/6/003-man.png | <img width="30" height="30" src="./icon/6/003-man.png" /> | icon/6/004-girl.png | <img width="30" height="30" src="./icon/6/004-girl.png" /> |
+| icon/6/005-boy.png | <img width="30" height="30" src="./icon/6/005-boy.png" /> | icon/6/006-girl.png | <img width="30" height="30" src="./icon/6/006-girl.png" /> |
+| icon/6/007-man.png | <img width="30" height="30" src="./icon/6/007-man.png" /> | icon/6/008-woman.png | <img width="30" height="30" src="./icon/6/008-woman.png" /> |
+| icon/6/009-muslim.png | <img width="30" height="30" src="./icon/6/009-muslim.png" /> | icon/6/010-doctor.png | <img width="30" height="30" src="./icon/6/010-doctor.png" /> |
+| icon/6/011-woman.png | <img width="30" height="30" src="./icon/6/011-woman.png" /> | icon/6/012-woman.png | <img width="30" height="30" src="./icon/6/012-woman.png" /> |
+| icon/6/013-bell boy.png | <img width="30" height="30" src="./icon/6/013-bell boy.png" /> | icon/6/014-woman.png | <img width="30" height="30" src="./icon/6/014-woman.png" /> |
+| icon/6/015-boy.png | <img width="30" height="30" src="./icon/6/015-boy.png" /> | icon/6/016-grandpa.png | <img width="30" height="30" src="./icon/6/016-grandpa.png" /> |
+| icon/6/017-grandma.png | <img width="30" height="30" src="./icon/6/017-grandma.png" /> | icon/6/018-nurse.png | <img width="30" height="30" src="./icon/6/018-nurse.png" /> |
+| icon/6/019-boy.png | <img width="30" height="30" src="./icon/6/019-boy.png" /> | icon/6/020-woman.png | <img width="30" height="30" src="./icon/6/020-woman.png" /> |
+| icon/6/021-woman.png | <img width="30" height="30" src="./icon/6/021-woman.png" /> | icon/6/022-doctor.png | <img width="30" height="30" src="./icon/6/022-doctor.png" /> |
+| icon/6/023-boy.png | <img width="30" height="30" src="./icon/6/023-boy.png" /> | icon/6/024-girl.png | <img width="30" height="30" src="./icon/6/024-girl.png" /> |
+| icon/6/025-chef.png | <img width="30" height="30" src="./icon/6/025-chef.png" /> | icon/6/026-man.png | <img width="30" height="30" src="./icon/6/026-man.png" /> |
+| icon/6/027-muslim.png | <img width="30" height="30" src="./icon/6/027-muslim.png" /> | icon/6/028-woman.png | <img width="30" height="30" src="./icon/6/028-woman.png" /> |
+| icon/6/029-girl.png | <img width="30" height="30" src="./icon/6/029-girl.png" /> | icon/6/030-man.png | <img width="30" height="30" src="./icon/6/030-man.png" /> |
+| icon/6/031-woman.png | <img width="30" height="30" src="./icon/6/031-woman.png" /> | icon/6/032-man.png | <img width="30" height="30" src="./icon/6/032-man.png" /> |
+| icon/6/033-girl.png | <img width="30" height="30" src="./icon/6/033-girl.png" /> | icon/6/034-taxi driver.png | <img width="30" height="30" src="./icon/6/034-taxi driver.png" /> |
+| icon/6/035-grandpa.png | <img width="30" height="30" src="./icon/6/035-grandpa.png" /> | icon/6/036-woman.png | <img width="30" height="30" src="./icon/6/036-woman.png" /> |
+| icon/6/037-firefighter.png | <img width="30" height="30" src="./icon/6/037-firefighter.png" /> | icon/6/038-boy.png | <img width="30" height="30" src="./icon/6/038-boy.png" /> |
+| icon/6/039-woman.png | <img width="30" height="30" src="./icon/6/039-woman.png" /> | icon/6/040-girl.png | <img width="30" height="30" src="./icon/6/040-girl.png" /> |
+| icon/6/041-grandma.png | <img width="30" height="30" src="./icon/6/041-grandma.png" /> | icon/6/042-woman.png | <img width="30" height="30" src="./icon/6/042-woman.png" /> |
+| icon/6/043-chef.png | <img width="30" height="30" src="./icon/6/043-chef.png" /> | icon/6/044-boy.png | <img width="30" height="30" src="./icon/6/044-boy.png" /> |
+| icon/6/045-woman.png | <img width="30" height="30" src="./icon/6/045-woman.png" /> | icon/6/046-man.png | <img width="30" height="30" src="./icon/6/046-man.png" /> |
+| icon/6/047-girl.png | <img width="30" height="30" src="./icon/6/047-girl.png" /> | icon/6/048-muslim.png | <img width="30" height="30" src="./icon/6/048-muslim.png" /> |
+| icon/6/049-girl.png | <img width="30" height="30" src="./icon/6/049-girl.png" /> | icon/6/050-muslim.png | <img width="30" height="30" src="./icon/6/050-muslim.png" /> |
+| icon/7/001-passport.png | <img width="30" height="30" src="./icon/7/001-passport.png" /> | icon/7/002-luggage.png | <img width="30" height="30" src="./icon/7/002-luggage.png" /> |
+| icon/7/003-hotel.png | <img width="30" height="30" src="./icon/7/003-hotel.png" /> | icon/7/004-airplane.png | <img width="30" height="30" src="./icon/7/004-airplane.png" /> |
+| icon/7/005-mountain.png | <img width="30" height="30" src="./icon/7/005-mountain.png" /> | icon/7/006-beach.png | <img width="30" height="30" src="./icon/7/006-beach.png" /> |
+| icon/7/007-suitcase.png | <img width="30" height="30" src="./icon/7/007-suitcase.png" /> | icon/7/008-train.png | <img width="30" height="30" src="./icon/7/008-train.png" /> |
+| icon/7/009-bus.png | <img width="30" height="30" src="./icon/7/009-bus.png" /> | icon/7/010-plane tickets.png | <img width="30" height="30" src="./icon/7/010-plane tickets.png" /> |
+| icon/7/011-door hanger.png | <img width="30" height="30" src="./icon/7/011-door hanger.png" /> | icon/7/012-gps.png | <img width="30" height="30" src="./icon/7/012-gps.png" /> |
+| icon/7/013-polaroid.png | <img width="30" height="30" src="./icon/7/013-polaroid.png" /> | icon/7/014-hotel bell.png | <img width="30" height="30" src="./icon/7/014-hotel bell.png" /> |
+| icon/7/015-flights.png | <img width="30" height="30" src="./icon/7/015-flights.png" /> | icon/7/016-compass.png | <img width="30" height="30" src="./icon/7/016-compass.png" /> |
+| icon/7/017-diary.png | <img width="30" height="30" src="./icon/7/017-diary.png" /> | icon/7/018-photo album.png | <img width="30" height="30" src="./icon/7/018-photo album.png" /> |
+| icon/7/019-photograph.png | <img width="30" height="30" src="./icon/7/019-photograph.png" /> | icon/7/020-street sign.png | <img width="30" height="30" src="./icon/7/020-street sign.png" /> |
+| icon/7/021-double bed.png | <img width="30" height="30" src="./icon/7/021-double bed.png" /> | icon/7/022-restaurant.png | <img width="30" height="30" src="./icon/7/022-restaurant.png" /> |
+| icon/7/023-hot air b`alloon.png | <img width="30" height="30" src="./icon/7/023-hot air balloon.png" /> | icon/7/024-backpack.png | <img width="30" height="30" src="./icon/7/024-backpack.png" /> |
+| icon/7/025-hotel key.png | <img width="30" height="30" src="./icon/7/025-hotel key.png" /> | icon/7/026-sunglasses.png | <img width="30" height="30" src="./icon/7/026-sunglasses.png" /> |
+| icon/7/027-island.png | <img width="30" height="30" src="./icon/7/027-island.png" /> | icon/7/028-shorts.png | <img width="30" height="30" src="./icon/7/028-shorts.png" /> |
+| icon/7/029-camcorder.png | <img width="30" height="30" src="./icon/7/029-camcorder.png" /> | icon/7/030-bikini.png | <img width="30" height="30" src="./icon/7/030-bikini.png" /> |
