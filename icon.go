@@ -75,22 +75,28 @@ func addIconTable(writeFile string, files []string) (bool, error) {
 	if err != nil {
 		return false, err
 	}
-	length, err = writeAt(f, "| uri | picture | uri | picture | \r\n| - | - | - | - |\r\n", length)
+	tableHeader := `
+| uri | picture | uri | picture | uri | picture |
+| - | - | - | - | - | - |
+`
+	length, err = writeAt(f, tableHeader, length)
 	if err != nil {
 		return false, err
 	}
 	for i := 0; i < len(files)-1; {
 		length, err = writeAt(f, "| "+files[i]+" | <img width=\"30\" height=\"30\" src=\""+path+files[i]+"\" />", length)
-		// length, err = writeAt(f, "| "+files[i]+" | <img src=\""+files[i]+"\" style=\"height:30px\" />", length)
 		if err != nil {
 			return false, err
 		}
-		length, err = writeAt(f, " | "+files[i+1]+" | <img width=\"30\" height=\"30\" src=\""+path+files[i+1]+"\" /> |\r\n", length)
-		// length, err = writeAt(f, " | "+files[i+1]+" | <img src=\""+files[i+1]+"\" style=\"height:30px\" /> |\r\n", length)
+		length, err = writeAt(f, " | "+files[i+1]+" | <img width=\"30\" height=\"30\" src=\""+path+files[i+1]+"\" />", length)
 		if err != nil {
 			return false, err
 		}
-		i += 2
+		length, err = writeAt(f, " | "+files[i+2]+" | <img width=\"30\" height=\"30\" src=\""+path+files[i+2]+"\" /> |\r\n", length)
+		if err != nil {
+			return false, err
+		}
+		i += 3
 	}
 	return true, nil
 }
